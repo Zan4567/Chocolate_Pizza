@@ -1,0 +1,37 @@
+body {
+  width: 80%;
+  margin-left: 10%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.small_logo {
+  height: 100%;
+  width: auto;
+  margin: 5pt;
+}
+
+.delicious {
+  font-family: Yellowtail, cursive;
+  margin: 0;
+}
+
+.centerspace {
+  flex-grow: 1;
+}
+
+.social_icons {
+  justify-content: flex-end;
+}
+
+.largeimage {
+  width: 100%;
+}
+
+.title {
+  font-family: sans-serif;
+}

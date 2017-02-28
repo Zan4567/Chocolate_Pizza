@@ -1,5 +1,6 @@
 body {
   width: 80%;
+  min-width: 600px;
   margin-left: 10%;
 }
 
@@ -7,6 +8,10 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+}
+
+footer {
+  text-align: center;
 }
 
 .small_logo {
@@ -26,6 +31,7 @@ header {
 
 .social_icons {
   justify-content: flex-end;
+  margin-left: 10pt;
 }
 
 .largeimage {
@@ -34,4 +40,42 @@ header {
 
 .title {
   font-family: sans-serif;
+}
+
+.ingredients {
+  background-image: url('img/list-bg.png');
+  list-style-type: square;
+  column-count: 2;
+  font-family: sans-serif;
+  padding: 20pt 20pt;
+}
+
+.author {
+  margin: 10pt;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.share {
+  padding: 0 20pt;
+  height: 40pt;
+  white-space: nowrap;
+  overflow: hidden;
+  justify-content: flex-end;
+  text-align: center;
+  justify-content: center;
+  background-color: brown;
+  color: white;
+  border-style: none;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.byline {
+  display: flex;
+}
+
+.byline_text {
+  flex-grow: 1;
+  flex-shrink: 1;
 }
